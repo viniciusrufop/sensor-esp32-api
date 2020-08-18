@@ -25,9 +25,10 @@ Abrir o terminal e executar `php artisan key:generate`
 ## Executar API
 
 Abrir o terminal e executar `php -S localhost:8000 -t public/`
-Para que a ESP32 tenha conexão com a API é necessário inicialiar o servidor com o ip do computador na rede.
+
+Para que a ESP32 tenha conexão com a API é necessário inicializar o servidor com o ip do computador na rede.
 Exemplo `php -S 192.168.10:8000 -t public/`
 
 # Firmware do projeto
 
-O firmware foi feito utilizando a linguagem Arduino, que tem por base a linguagem C++. A placa de desenvolvimento utilizada no projeto foi a **ESP32-DevKitC**. [Repositório do Firmware](https://github.com/viniciusrufop/sensor-esp32-firmaware.git)
+O firmware foi feito utilizando a linguagem Arduino, que tem por base a linguagem C++. A placa de desenvolvimento utilizada no projeto foi a **ESP32-DevKitC**. [Repositório do Firmware](https://github.com/viniciusrufop/sensor-esp32-firmware.git)
